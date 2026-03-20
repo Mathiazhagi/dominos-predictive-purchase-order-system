@@ -25,8 +25,8 @@ st.subheader("Data Science Project")
 st.write("This application analyzes Dominoz sales and ingredient data.")
 
 # Load datasets
-sales = pd.read_csv("data/sales_data.csv")
-ingredients = pd.read_csv("data/ingredients_data.csv")
+sales = pd.read_csv("sales_data.csv")
+ingredients = pd.read_csv("ingredients_data.csv")
 
 st.success("Datasets loaded successfully ✅")
 
